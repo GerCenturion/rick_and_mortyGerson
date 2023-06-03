@@ -1,0 +1,36 @@
+@font-face {
+    font-family: rickandmorty;
+    src: url(/src/components/fonts/get_schwifty.ttf);
+}
+
+.Detail {
+
+    background-image: url(../fonts/Portal.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    font-family: rickandmorty;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: azure;
+}
+
+img {
+    width: auto;
+    height: 30vh;
+    margin-top: 10vh;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

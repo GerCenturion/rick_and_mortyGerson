@@ -1,0 +1,50 @@
+@font-face {
+    font-family: rickandmorty;
+    src: url(/src/components/fonts/get_schwifty.ttf);
+}
+
+.SearchBar{
+    width: 100%;
+    background-size:contain;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+}
+
+.SearchBar button{
+    border-radius: 50%;
+    padding: 10px;
+    font-family: rickandmorty;
+    font-size:large;
+
+}
+
+.SearchBar input{
+    display: flex;
+    justify-content:center;
+    background-image:url(../fonts/Portal.gif);
+    background-size:120%;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    width: 9%;
+    padding: 18px;
+    transition: background-color 0.5s ease;
+    border-radius: 50%;
+    font-family: rickandmorty;
+    font-size: 125%;
+    text-align: center;
+    
+    
+    
+}
+
+.SearchBar input:focus {
+    background-image:url(../fonts/star.gif);
+    color: rgb(43, 226, 55);
+    text-align: center;
+    font-size: 125%;
+    
+    
+}
+

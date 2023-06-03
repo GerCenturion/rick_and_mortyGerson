@@ -1,0 +1,19 @@
+@font-face {
+    font-family: rickandmorty;
+    src: url(/src/components/fonts/get_schwifty.ttf);
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-column-end:initial;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-family: rickandmorty;
+  
+  }
+

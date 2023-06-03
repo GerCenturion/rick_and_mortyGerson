@@ -1,0 +1,44 @@
+@font-face {
+    font-family: rickandmorty;
+    src: url(/src/components/fonts/get_schwifty.ttf);
+}
+
+.Favorites{
+    width: 100%;
+    background-size:contain;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    
+}
+
+
+.FavoritesCards{
+    width: 100%;
+    display: grid;
+    grid-column-end:initial;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-family: rickandmorty;    
+  }
+
+.onClose{
+    display: none;
+}
+
+
+
+.Favorites select{
+    border-radius: 50%;
+    padding: 10px;
+    font-family: rickandmorty;
+    font-size:large;
+
+}
+
+
